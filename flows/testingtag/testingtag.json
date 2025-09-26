@@ -1,21 +1,13 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "1c0af7a3-ee2b-4ad1-8ccb-db1d2569a220",
+  "displayName": "testingtag",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "condition": "true",
     "triggerFulfillment": {
     
     },
-    "targetPage": "collect name",
-    "name": "85c858c6-e446-4701-a11a-1729ae957129"
-  }, {
-    "intent": "raise a ticket",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "RaiseTicket",
-    "name": "911125f8-91a4-488c-8715-af535712072c"
+    "targetPage": "End Session",
+    "name": "961e2df0-29cb-4947-8e8b-a5392e6681e9"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -27,7 +19,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ae530b44-69a0-46cf-b1c2-34a5ae079221"
+    "name": "3ff16d1d-96ed-44da-8c78-c8c89dc415ab"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -38,7 +30,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "e628a61d-67f6-4e8f-9f6f-0ec4231ae4cc"
+    "name": "4cd24d87-994c-46d1-9890-c3784876316f"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
@@ -47,6 +39,7 @@
   "nluSettingsList": [ {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001,
+    "customConfigKey": "f1c63528-ecd6-46c8-bd05-7d33586ba9a6",
     "languageCode": "en"
   } ]
 }
