@@ -1,0 +1,10 @@
+{
+  "name": "b7abb309-3fe0-416e-be6a-05bc95843dd6",
+  "displayName": "mobile number",
+  "parameters": [ {
+    "id": "mobile-number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

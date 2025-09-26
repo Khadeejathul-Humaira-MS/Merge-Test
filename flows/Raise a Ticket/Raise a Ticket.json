@@ -1,21 +1,18 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "b97ddcd2-66f3-4f51-9de5-683de78337a8",
+  "displayName": "Raise a Ticket",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "condition": "true",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Please provide your mobile number" ]
+        },
+        "languageCode": "en"
+      } ]
     },
-    "targetPage": "collect name",
-    "name": "85c858c6-e446-4701-a11a-1729ae957129"
-  }, {
-    "intent": "raise a ticket",
-    "triggerFulfillment": {
-    
-    },
-    "targetFlow": "Raise a Ticket",
-    "name": "911125f8-91a4-488c-8715-af535712072c"
+    "targetPage": "collect mobile number",
+    "name": "ca6246a2-17dd-471d-aeaf-ad5e467f1fd9"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -27,7 +24,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ae530b44-69a0-46cf-b1c2-34a5ae079221"
+    "name": "336d3e2e-74e4-40c0-8913-0ec82ed939aa"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -38,7 +35,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "e628a61d-67f6-4e8f-9f6f-0ec4231ae4cc"
+    "name": "03974f03-6c0c-419f-910f-1983985f3fe2"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
@@ -47,6 +44,7 @@
   "nluSettingsList": [ {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001,
+    "customConfigKey": "8c85b512-b89b-4520-9d2e-37b8021dc0d6",
     "languageCode": "en"
   } ]
 }

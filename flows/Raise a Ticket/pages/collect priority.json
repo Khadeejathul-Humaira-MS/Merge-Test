@@ -1,0 +1,20 @@
+{
+  "name": "c06c2090-969b-4e62-b93d-bd8d4b782973",
+  "displayName": "collect priority",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "priority",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "We have created the ticket , Thanks for contacting us" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "e6e3c963-2d10-4a45-93d4-b76b6cb6c5cc"
+  } ]
+}

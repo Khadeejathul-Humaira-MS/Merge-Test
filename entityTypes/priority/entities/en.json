@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "high",
+    "synonyms": [ "critical", "high", "higher", "hightest", "important" ],
+    "languageCode": "en"
+  }, {
+    "value": "medium",
+    "synonyms": [ "medium", "middle", "not so important" ],
+    "languageCode": "en"
+  }, {
+    "value": "low",
+    "synonyms": [ "low", "lower", "lowest" ],
+    "languageCode": "en"
+  } ]
+}
