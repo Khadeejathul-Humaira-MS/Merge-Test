@@ -6,7 +6,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Please provide your mobile number" ]
+          "text": [ "Please provide your mobile number ?" ]
         },
         "languageCode": "en"
       } ]
