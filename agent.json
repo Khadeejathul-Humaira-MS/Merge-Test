@@ -1,12 +1,39 @@
 {
-  "displayName": "GITTEST01",
+  "displayName": "GITTESTDEMO-02",
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "projectNumber": 205115177972,
+  "speechToTextSettings": {
+  
+  },
   "startFlow": "Default Start Flow",
   "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
     "loggingSettings": {
     
+    },
+    "speechAdaptationSettings": {
+    
     }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "duplexSettings": {
+  
+  },
+  "webClientSettings": {
+    "boxBorderRadius": "0"
   }
 }
