@@ -1,0 +1,20 @@
+{
+  "name": "7f8e0e29-7f6f-4cec-b86b-a7c2175b4766",
+  "displayName": "collect mobile number",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "mobile number",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please provide the priority level" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "collect priority",
+    "name": "ad0a9880-2bd5-44f8-83ff-6b9672bd05a5"
+  } ]
+}
