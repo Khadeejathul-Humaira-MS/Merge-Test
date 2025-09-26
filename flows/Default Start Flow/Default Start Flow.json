@@ -5,13 +5,9 @@
   "transitionRoutes": [ {
     "intent": "Default Welcome Intent",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
+    "targetPage": "collect name",
     "name": "85c858c6-e446-4701-a11a-1729ae957129"
   } ],
   "eventHandlers": [ {
@@ -40,5 +36,11 @@
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
-  }
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "2999208e-0143-4e3f-86c8-bea9e3b4fdb1",
+    "languageCode": "en"
+  } ]
 }

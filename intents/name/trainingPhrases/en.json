@@ -1,0 +1,73 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I am called Jane"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "It's David"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My name is Maria"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Laurence",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "This is ",
+      "auto": true
+    }, {
+      "text": "Jack",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am ",
+      "auto": true
+    }, {
+      "text": "sita",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am ",
+      "auto": true
+    }, {
+      "text": "Henry",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my name is ",
+      "auto": true
+    }, {
+      "text": "John",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

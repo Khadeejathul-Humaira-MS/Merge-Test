@@ -1,0 +1,28 @@
+{
+  "name": "1622b3ff-ac2e-4583-bc81-09d70dcae1c5",
+  "displayName": "collect name",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please Provide Your Name." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "name",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$session.params.person Thank You" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "c2422c17-6387-4ddb-80ae-a51a6cc97d96"
+  } ]
+}
