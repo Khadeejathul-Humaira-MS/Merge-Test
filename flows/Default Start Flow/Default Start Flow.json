@@ -14,7 +14,7 @@
     "triggerFulfillment": {
     
     },
-    "targetFlow": "Raise a Ticket",
+    "targetFlow": "RaiseTicket",
     "name": "911125f8-91a4-488c-8715-af535712072c"
   } ],
   "eventHandlers": [ {

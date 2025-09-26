@@ -1,6 +1,6 @@
 {
   "name": "b97ddcd2-66f3-4f51-9de5-683de78337a8",
-  "displayName": "Raise a Ticket",
+  "displayName": "RaiseTicket",
   "transitionRoutes": [ {
     "condition": "true",
     "triggerFulfillment": {
@@ -39,11 +39,16 @@
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "advancedSettings": {
+    "enabled": true
   },
   "nluSettingsList": [ {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
     "customConfigKey": "8c85b512-b89b-4520-9d2e-37b8021dc0d6",
     "languageCode": "en"
   } ]
