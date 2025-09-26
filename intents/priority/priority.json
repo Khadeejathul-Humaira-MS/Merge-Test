@@ -1,0 +1,10 @@
+{
+  "name": "fa56be5d-2ef5-4d1a-b277-d59bc6cee096",
+  "displayName": "priority",
+  "parameters": [ {
+    "id": "priority",
+    "entityType": "@priority"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

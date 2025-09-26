@@ -1,0 +1,59 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "important",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "critical",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "lesser",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "lowest",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "highest",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "medium",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "low",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "high",
+      "parameterId": "priority"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
